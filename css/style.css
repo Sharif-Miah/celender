@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 30px repeat(5, 75px);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.date,
+.day {
+    background-color: #85d4f4;
+    /* padding: 15px; */
+    /* height: 100px; */
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 7px;
+}
+
+.last-month {
+    background-color: #bcb2b2;
+}
